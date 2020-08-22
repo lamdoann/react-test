@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  console.log('sdsdsd', process.env.REACT_APP_SVR_API);
   return (
     <div className="App">
       <header className="App-header">
